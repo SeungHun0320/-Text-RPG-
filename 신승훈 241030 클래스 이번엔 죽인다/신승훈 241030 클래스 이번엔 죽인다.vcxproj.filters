@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01_Player">
+      <UniqueIdentifier>{ac092a67-f304-4672-9366-b4bb294d768b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Main_Game">
+      <UniqueIdentifier>{a847a0f4-216f-4617-92a4-44fbdb9ad813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Dungeon">
+      <UniqueIdentifier>{2161c89d-b538-4d66-a60c-172c94debca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Monster">
+      <UniqueIdentifier>{48a0d348-a0ae-4d62-a508-9a45c63bc00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Monster\3-01_Monster01">
+      <UniqueIdentifier>{6a731b07-f0e3-44ee-80ab-564085e093d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Monster\3-02_Monster02">
+      <UniqueIdentifier>{72895bc9-a875-4d64-bad3-af1671eb2af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Monster\3-03_Monster03">
+      <UniqueIdentifier>{1a9750cd-7bc9-4cc8-89cd-65b82ef3b2d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="신승훈 241030 클래스 이번엔 죽인다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMain_Game.cpp">
+      <Filter>00_Main_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>01_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CDungeon.cpp">
+      <Filter>02_Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster_01.cpp">
+      <Filter>03_Monster\3-01_Monster01</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster_02.cpp">
+      <Filter>03_Monster\3-02_Monster02</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster_03.cpp">
+      <Filter>03_Monster\3-03_Monster03</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMain_Game.h">
+      <Filter>00_Main_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>01_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CDungeon.h">
+      <Filter>02_Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster_01.h">
+      <Filter>03_Monster\3-01_Monster01</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster_02.h">
+      <Filter>03_Monster\3-02_Monster02</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster_03.h">
+      <Filter>03_Monster\3-03_Monster03</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
