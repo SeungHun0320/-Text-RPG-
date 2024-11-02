@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00_Main_Game">
+      <UniqueIdentifier>{5edad0c6-8972-4252-ab85-8a590ed87bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Life">
+      <UniqueIdentifier>{a4521d9e-9f43-49da-ba0d-c4153bcef26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Dungeon">
+      <UniqueIdentifier>{b5128a37-0437-4372-84e8-64f7e02db9ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Life\00_Player">
+      <UniqueIdentifier>{1f5c4ffb-8926-435e-8756-16bdffab4e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Life\01_Monster">
+      <UniqueIdentifier>{f79dc751-4167-4a51-9eb4-3fd7ce0e2ab0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="신승훈 241101 클래스가 밉다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Game.cpp">
+      <Filter>00_Main_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Life.cpp">
+      <Filter>01_Life</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01_Life\00_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01_Life\01_Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>02_Dungeon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Game.h">
+      <Filter>00_Main_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Life.h">
+      <Filter>01_Life</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01_Life\00_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01_Life\01_Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>02_Dungeon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
